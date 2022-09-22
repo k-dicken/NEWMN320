@@ -19,12 +19,12 @@ export default class App extends React.Component {
       <div>
           <div className="nav">
           <h2>Labs</h2>
-          <p className="navLink" id="lab5" onClick={() => {
+          <div className="navLink" id="lab5" onClick={() => {
             this.swapProject(1);
           }}>
-              <h4>Lab 5</h4>
+              <p>Lab 5</p>
               <p>React Intro</p>
-          </p>
+          </div>
           <p className="navBottom">Kylee Dicken</p>
           </div>
           <div className="displayProject">
