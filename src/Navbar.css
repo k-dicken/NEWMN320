@@ -1,0 +1,54 @@
+.icon {
+    height: 60px;
+    width: 60px;
+}
+
+.nav {
+    height: 100vh;
+    width: 140px;
+
+    padding: 20px 40px 20px 10px;
+
+    position: fixed;
+    right: 0;
+
+    text-align: right;
+
+    background-color: #223;
+}
+
+.nav * {
+    margin-bottom: 0;
+    color: white;
+}
+
+.nav a:hover * {
+    color: #6DD;
+    cursor: pointer;
+}
+
+.nav h2 {
+    margin-bottom: 20px;
+}
+
+.nav .bold * {
+    font-weight: bold;
+}
+
+.nav .navBottom {
+    position: absolute;
+    
+    text-align: right;
+
+    bottom: 20px;
+    right: 30px;
+}
+
+/* @keyframes navOpen {
+    from {
+        margin-right: 0;
+    }
+    to {
+        margin-left: 
+    }
+} */
