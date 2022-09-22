@@ -19,6 +19,7 @@ export default class App extends React.Component {
       <div>
           <div className="nav">
           <h2>Labs</h2>
+          <br/>
           <div className="navLink" id="lab5" onClick={() => {
             this.swapProject(1);
           }}>

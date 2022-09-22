@@ -61,13 +61,9 @@
   color: white;
 }
 
-.nav a:hover * {
+.nav div:hover * {
   color: #6DD;
   cursor: pointer;
-}
-
-.nav h2 {
-  margin-bottom: 20px;
 }
 
 .nav .bold * {
