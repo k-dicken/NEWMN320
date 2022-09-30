@@ -8,7 +8,7 @@ import Lab6 from "./labs/Lab6/Dialogue";
 import Lab7 from "./labs/Lab7/ReactAnimation";
 
 //practice
-import ReactLifestyle from "./practices/ReactLifestyle"
+// import ReactLifestyle from "./practices/ReactLifestyle"
 
 export default class App extends React.Component {
   state = {
