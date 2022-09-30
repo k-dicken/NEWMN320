@@ -1,0 +1,55 @@
+.waterTracker {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.glassCounter {
+    color: #111;
+    font-weight: bold;
+}
+
+.glassCounter-enter {
+    color: #111;
+}
+
+.glassCounter-enter-active {
+    color: #0DF;
+    transition: color 600ms;
+}
+
+.glassCounter-exit {
+    opacity: #0DF;
+}
+
+.glassCounter-exit-active {
+    opacity: #111;
+    transition: color 200ms;
+}
+
+.my-node {
+    color: #111;
+    font-weight: bold;
+}
+
+.my-node-enter {
+    color: #111;
+}
+
+.my-node-enter-active {
+    color: #0DF;
+    transition: color 6000ms;
+}
+
+.my-node-exit {
+    opacity: #0DF;
+}
+
+.my-node-exit-active {
+    opacity: #111;
+    transition: color 2000ms;
+}

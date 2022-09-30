@@ -1,0 +1,83 @@
+/* .cardStack {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 60px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #444;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #444;
+    color: #FFF;
+}
+
+.card-enter, 
+.card-appear {
+    opacity: 0;
+    width: 0;
+}
+
+.card-enter-active, 
+.card-appear-active {
+    opacity: 1;
+    width: 60px;
+    transition: opacity 400ms, width 400ms;
+}
+
+.card-exit {
+    opacity: 1;
+}
+
+.card-exit-active {
+    opacity: 0;
+    transition: opacity 400ms;
+} */
+
+
+.cardStack {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 90px;
+    border: 1px solid #333;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .card-enter,
+  .card-appear {
+    opacity: 0;
+    width: 0;
+  }
+  
+  .card-enter-active,
+  .card-appear-active {
+    opacity: 1;
+    width: 60px;
+    transition: opacity 400ms, width 400ms;
+  }
+  
+  .card-exit {
+    opacity: 1;
+    background-color: #333;
+  }
+  
+  .card-exit-active {
+    opacity: 0;
+    background-color: blue;
+    transition: opacity 400ms, background-color 400ms;
+  }
