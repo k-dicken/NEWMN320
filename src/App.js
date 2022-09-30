@@ -56,9 +56,7 @@ export default class App extends React.Component {
           </div>
           <div className="displayProject">
             {this.state.pages[this.state.curPage]}
-            <Lab7/>
           </div>
-          {/* <ReactLifestyle/> */}
       </div>
     );
   };
