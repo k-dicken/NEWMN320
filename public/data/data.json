@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "location1",
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": 2,
+        "name": "location2",
+        "position": { "x": 420, "y": 60 }
+    },
+    {
+        "id": 3,
+        "name": "location3",
+        "position": { "x": 250, "y": 250 }
+    },
+    {
+        "id": 4,
+        "name": "location4",
+        "position": { "x": 450, "y": 370 }
+    },
+    {
+        "id": 5,
+        "name": "location5",
+        "position": { "x": 340, "y": 430 }
+    },
+    {
+        "id": 6,
+        "name": "location6",
+        "position": { "x": 80, "y": 300 }
+    }
+]
